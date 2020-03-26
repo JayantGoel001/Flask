@@ -15,4 +15,4 @@ def termsandc():
     return templating.render_template('tnc.html')
 
 
-app.run()
+#app.run(port=8000)
