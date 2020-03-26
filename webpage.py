@@ -1,7 +1,9 @@
 from flask import Flask, templating
 
 app = Flask(__name__)
-
+@app.route('/')
+def home():
+    return "Theatron"
 
 @app.route('/privacypolicy/')
 def privacypolicy():
