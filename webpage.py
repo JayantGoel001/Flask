@@ -1,6 +1,6 @@
 from flask import Flask, templating
 
-app = Flask(__name__)
+app = Flask("Theatron")
 @app.route('/')
 def home():
     return "Theatron"
