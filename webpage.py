@@ -14,5 +14,8 @@ def privacypolicy():
 def termsandc():
     return templating.render_template('tnc.html')
 
+@app.route('/aboutus/')
+def about():
+    return templating.render_template('aboutus.html')
 
-#app.run(port=8000)
+app.run()
