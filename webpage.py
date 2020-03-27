@@ -18,4 +18,4 @@ def termsandc():
 def about():
     return templating.render_template('aboutus.html')
 
-app.run()
+#app.run()
